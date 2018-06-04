@@ -59,10 +59,12 @@ namespace QuanLyKhoHang
         //    TonKho_Load(sender, e);
         //}
 
-        //private void btnThoat_Click(object sender, EventArgs e)
-        //{
-        //    Close();
-        //}
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            GiaoDien menu = new GiaoDien();
+            menu.ShowDialog();
+        }
 
         private void TonKho_Load(object sender, EventArgs e)
         {
