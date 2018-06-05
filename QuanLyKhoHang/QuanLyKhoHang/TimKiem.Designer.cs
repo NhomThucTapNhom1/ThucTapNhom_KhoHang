@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TimKiem));
             this.label1 = new System.Windows.Forms.Label();
             this.txtNhap = new System.Windows.Forms.TextBox();
             this.btnTim = new System.Windows.Forms.Button();
@@ -54,29 +53,28 @@
             this.label1.BackColor = System.Drawing.Color.AliceBlue;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Maroon;
-            this.label1.Location = new System.Drawing.Point(48, 79);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(64, 117);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 18);
+            this.label1.Size = new System.Drawing.Size(79, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "Từ khóa";
             // 
             // txtNhap
             // 
-            this.txtNhap.Location = new System.Drawing.Point(129, 77);
-            this.txtNhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNhap.Location = new System.Drawing.Point(172, 115);
+            this.txtNhap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNhap.Name = "txtNhap";
-            this.txtNhap.Size = new System.Drawing.Size(162, 20);
+            this.txtNhap.Size = new System.Drawing.Size(215, 22);
             this.txtNhap.TabIndex = 1;
             // 
             // btnTim
             // 
             this.btnTim.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTim.ForeColor = System.Drawing.Color.Maroon;
-            this.btnTim.Location = new System.Drawing.Point(551, 77);
-            this.btnTim.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTim.Location = new System.Drawing.Point(735, 115);
+            this.btnTim.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTim.Name = "btnTim";
-            this.btnTim.Size = new System.Drawing.Size(56, 23);
+            this.btnTim.Size = new System.Drawing.Size(75, 28);
             this.btnTim.TabIndex = 2;
             this.btnTim.Text = "Tìm ";
             this.btnTim.UseVisualStyleBackColor = true;
@@ -84,6 +82,7 @@
             // 
             // dgvTimKiem
             // 
+            this.dgvTimKiem.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvTimKiem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTimKiem.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.MaSP,
@@ -93,11 +92,11 @@
             this.Gia,
             this.BaoHanh,
             this.TinhNang});
-            this.dgvTimKiem.Location = new System.Drawing.Point(50, 163);
-            this.dgvTimKiem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvTimKiem.Location = new System.Drawing.Point(67, 229);
+            this.dgvTimKiem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvTimKiem.Name = "dgvTimKiem";
             this.dgvTimKiem.RowTemplate.Height = 24;
-            this.dgvTimKiem.Size = new System.Drawing.Size(616, 193);
+            this.dgvTimKiem.Size = new System.Drawing.Size(821, 238);
             this.dgvTimKiem.TabIndex = 3;
             // 
             // MaSP
@@ -148,22 +147,21 @@
             this.label2.BackColor = System.Drawing.Color.AliceBlue;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Maroon;
-            this.label2.Location = new System.Drawing.Point(48, 143);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(64, 188);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 18);
+            this.label2.Size = new System.Drawing.Size(74, 24);
             this.label2.TabIndex = 4;
             this.label2.Text = "Hiển thị";
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(611, 77);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(815, 115);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(55, 23);
+            this.button1.Size = new System.Drawing.Size(73, 28);
             this.button1.TabIndex = 5;
-            this.button1.Text = "Thoat";
+            this.button1.Text = "Thoát";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -172,9 +170,10 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(296, 81);
+            this.label4.Location = new System.Drawing.Point(395, 120);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(98, 16);
+            this.label4.Size = new System.Drawing.Size(124, 20);
             this.label4.TabIndex = 21;
             this.label4.Text = "Tìm kiếm theo :";
             // 
@@ -187,9 +186,10 @@
             "Tên sản phẩm",
             "Loại sản phẩm",
             "Hang sản xuất"});
-            this.cbTimKiem.Location = new System.Drawing.Point(403, 79);
+            this.cbTimKiem.Location = new System.Drawing.Point(537, 117);
+            this.cbTimKiem.Margin = new System.Windows.Forms.Padding(4);
             this.cbTimKiem.Name = "cbTimKiem";
-            this.cbTimKiem.Size = new System.Drawing.Size(127, 21);
+            this.cbTimKiem.Size = new System.Drawing.Size(168, 24);
             this.cbTimKiem.TabIndex = 20;
             this.cbTimKiem.Tag = "Mã sản phẩm";
             this.cbTimKiem.Text = "Mã sản phẩm";
@@ -197,23 +197,21 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.label3.BackColor = System.Drawing.Color.Azure;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(207, 9);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.ForeColor = System.Drawing.Color.Red;
+            this.label3.Location = new System.Drawing.Point(278, 24);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(272, 33);
+            this.label3.Size = new System.Drawing.Size(386, 42);
             this.label3.TabIndex = 22;
-            this.label3.Text = "Tìm kiếm sản phẩm";
+            this.label3.Text = "TÌM KIẾM SẢN PHẨM";
             // 
             // TimKiem
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MediumSpringGreen;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(687, 362);
+            this.BackColor = System.Drawing.Color.Azure;
+            this.ClientSize = new System.Drawing.Size(916, 478);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.cbTimKiem);
@@ -224,7 +222,7 @@
             this.Controls.Add(this.txtNhap);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.Color.Maroon;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "TimKiem";
             this.Text = "TimKiem";
             this.Load += new System.EventHandler(this.TimKiem_Load);

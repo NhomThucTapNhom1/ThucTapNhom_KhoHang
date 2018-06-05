@@ -106,7 +106,9 @@ namespace QuanLyKhoHang
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Close();
+            this.Hide();
+            GiaoDien menu = new GiaoDien();
+            menu.ShowDialog();
         }
     }
 }

@@ -107,5 +107,12 @@ namespace QuanLyKhoHang
                 MessageBox.Show("cap nhat khong thanh cong","bao loi");
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            GiaoDien menu = new GiaoDien();
+            menu.ShowDialog();
+        }
     }
 }
