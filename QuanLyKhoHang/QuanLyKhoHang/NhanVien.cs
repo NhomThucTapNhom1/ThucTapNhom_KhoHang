@@ -149,6 +149,16 @@ namespace QuanLyKhoHang
             if(a == 0)ThemNV(sender, e);
             if (a == 1) SuaNhanVien(sender, e);
         }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     /*DialogResult tb = MessageBox.Show("Bạn chắc chắn muốn thoát hay không ?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (tb == DialogResult.OK)

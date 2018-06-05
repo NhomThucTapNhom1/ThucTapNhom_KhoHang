@@ -96,14 +96,13 @@ namespace QuanLyKhoHang
 
         private void button2_Click(object sender, EventArgs e)
         {
-            DialogResult tb = MessageBox.Show("Bạn chắc chắn muốn đăng xuất hay không ?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (tb == DialogResult.Yes)
+            DialogResult tb = MessageBox.Show("Bạn chắc chắn muốn đăng xuất hay không ?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (tb == DialogResult.OK)
             {
                 this.Hide();
-                DangNhap menu = new DangNhap();
-                menu.ShowDialog();
+                DangNhap Menu = new DangNhap();
+                Menu.ShowDialog();
             }
-                
 
 
         }

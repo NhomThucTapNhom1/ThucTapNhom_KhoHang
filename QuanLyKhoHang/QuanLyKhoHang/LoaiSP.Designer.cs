@@ -177,6 +177,7 @@
             // 
             // dgvLoaiSP
             // 
+            this.dgvLoaiSP.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvLoaiSP.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvLoaiSP.Location = new System.Drawing.Point(173, 346);
             this.dgvLoaiSP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -190,7 +191,7 @@
             // 
             this.btnLuu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnLuu.Location = new System.Drawing.Point(480, 222);
-            this.btnLuu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLuu.Margin = new System.Windows.Forms.Padding(4);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(100, 39);
             this.btnLuu.TabIndex = 101;

@@ -55,6 +55,7 @@
             // 
             // tbxDiaChi
             // 
+            this.tbxDiaChi.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.tbxDiaChi.Location = new System.Drawing.Point(591, 177);
             this.tbxDiaChi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbxDiaChi.Name = "tbxDiaChi";
@@ -70,6 +71,7 @@
             this.label8.Size = new System.Drawing.Size(51, 17);
             this.label8.TabIndex = 89;
             this.label8.Text = "Địa chỉ";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // tbxHoTen
             // 
@@ -82,6 +84,7 @@
             // 
             // tbxMaNV
             // 
+            this.tbxMaNV.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.tbxMaNV.Location = new System.Drawing.Point(232, 135);
             this.tbxMaNV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbxMaNV.Name = "tbxMaNV";
@@ -174,7 +177,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(4, 303);
+            this.label3.Location = new System.Drawing.Point(15, 302);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(76, 17);
             this.label3.TabIndex = 79;
@@ -184,7 +187,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(4, 95);
+            this.label2.Location = new System.Drawing.Point(35, 103);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(68, 17);
             this.label2.TabIndex = 78;
@@ -196,7 +199,7 @@
             this.label1.BackColor = System.Drawing.Color.Azure;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(270, 26);
+            this.label1.Location = new System.Drawing.Point(237, 57);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(286, 55);
             this.label1.TabIndex = 77;
@@ -204,6 +207,7 @@
             // 
             // tbxSoDienThoai
             // 
+            this.tbxSoDienThoai.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.tbxSoDienThoai.Location = new System.Drawing.Point(591, 218);
             this.tbxSoDienThoai.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbxSoDienThoai.Name = "tbxSoDienThoai";
@@ -219,12 +223,13 @@
             this.label7.Size = new System.Drawing.Size(91, 17);
             this.label7.TabIndex = 96;
             this.label7.Text = "Số điện thoại";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label9.Location = new System.Drawing.Point(465, 134);
+            this.label9.Location = new System.Drawing.Point(465, 139);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(60, 17);
             this.label9.TabIndex = 93;
@@ -244,21 +249,25 @@
             // 
             this.dgvNhanVien.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvNhanVien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvNhanVien.Location = new System.Drawing.Point(110, 445);
+            this.dgvNhanVien.Location = new System.Drawing.Point(18, 448);
             this.dgvNhanVien.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvNhanVien.Name = "dgvNhanVien";
             this.dgvNhanVien.RowTemplate.Height = 24;
-            this.dgvNhanVien.Size = new System.Drawing.Size(667, 171);
+            this.dgvNhanVien.Size = new System.Drawing.Size(758, 211);
             this.dgvNhanVien.TabIndex = 98;
             this.dgvNhanVien.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvNhanVien_CellContentClick);
             // 
             // cbxGioiTinh
             // 
+            this.cbxGioiTinh.AutoCompleteCustomSource.AddRange(new string[] {
+            "Nam",
+            "Nữ",
+            "Khác"});
             this.cbxGioiTinh.FormattingEnabled = true;
             this.cbxGioiTinh.Items.AddRange(new object[] {
             "Nam",
             "Nữ"});
-            this.cbxGioiTinh.Location = new System.Drawing.Point(591, 126);
+            this.cbxGioiTinh.Location = new System.Drawing.Point(591, 132);
             this.cbxGioiTinh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbxGioiTinh.Name = "cbxGioiTinh";
             this.cbxGioiTinh.Size = new System.Drawing.Size(184, 24);
@@ -290,7 +299,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
-            this.ClientSize = new System.Drawing.Size(840, 642);
+            this.ClientSize = new System.Drawing.Size(798, 689);
             this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.dtNgaySinh);
             this.Controls.Add(this.cbxGioiTinh);

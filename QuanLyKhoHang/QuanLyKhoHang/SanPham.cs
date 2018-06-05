@@ -40,16 +40,10 @@ namespace QuanLyKhoHang
             try
             {
                 string sql = "insert into SanPham Values('" + tbxMaSP.Text + "',N'" + tbxTenSP.Text + "','" + tbxMaLSP.Text + "','" + tbxMaHSX.Text + "','" + tbxGiaBan.Text + "',N'" + tbxBaoHanh.Text + "',N'" + tbxTinhNang.Text + "')";
-
                 acc.excuteNonQuery(sql);
-
-
-
                 MessageBox.Show("Thêm Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
                // dataGridView1.Refresh();
                 SanPham_Load(sender, e);
-
             }
             catch (Exception)
             {
@@ -127,7 +121,7 @@ namespace QuanLyKhoHang
             tbxGiaBan.Text = dataGridView1.CurrentRow.Cells["GiaBan"].Value.ToString();
             tbxBaoHanh.Text = dataGridView1.CurrentRow.Cells["BaoHanh"].Value.ToString();
             tbxTinhNang.Text = dataGridView1.CurrentRow.Cells["TinhNang"].Value.ToString();
-            
+
         }
 
         private void SanPham_Load(object sender, EventArgs e)
@@ -205,7 +199,7 @@ namespace QuanLyKhoHang
 
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void tbxMaSP_TextChanged(object sender, EventArgs e)
         {
 
         }

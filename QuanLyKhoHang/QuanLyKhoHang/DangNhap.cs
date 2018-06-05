@@ -38,10 +38,9 @@ namespace QuanLyKhoHang
         {
             
                 string tk = tbxTenTaiKhoan.Text;
-                string mk = tbxMatKhau.Text;
-           
-             string sql =("Select *from DangNhap where TenDangNhap='" + tk + "'and MatKhau='" + mk + "'");
-            SqlDataReader dta = acc.ExecuteReader(sql);
+                string mk = tbxMatKhau.Text;             
+            
+               SqlDataReader dta = acc.ExecuteReader("Select *from DangNhap where TenDangNhap='" + tk + "'and MatKhau='" + mk + "'");
             if (tbxMatKhau.Text.Length > 8)
             {
                 if (dta.Read() == true)
@@ -50,24 +49,16 @@ namespace QuanLyKhoHang
                     this.Hide();
                     GiaoDien menu = new GiaoDien();
                     menu.ShowDialog();
-
-
                 }
                 else
                 {
                     MessageBox.Show("Đăng nhập thất bại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-
             }
             else
             {
-                MessageBox.Show(" mật khẩu phải lớn hơn 8 kí tự!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Sai mật khẩu!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-
-
-
-
-
         }
 
         private void btnThoat_Click(object sender, EventArgs e)
@@ -76,12 +67,5 @@ namespace QuanLyKhoHang
             if (tb == DialogResult.OK)
             Application.Exit();
         }
-
-        /*private void btnDangKi_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            DangKy menu = new DangKy();
-            menu.ShowDialog();
-        }*/
     }
 }
