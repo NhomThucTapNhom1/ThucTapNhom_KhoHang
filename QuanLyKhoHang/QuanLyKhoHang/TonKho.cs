@@ -96,9 +96,9 @@ namespace QuanLyKhoHang
                     txtTong1.Text = acc.executeScalar("select sum(a.Soluong) from SanPham a").ToString();
                     txtTong2.Text = acc.executeScalar("select sum(a.Soluong) from PhieuNhap a").ToString();
                     txtTong3.Text = acc.executeScalar("select sum(a.Soluong) from PhieuXuat a").ToString();
-                    txtTien1.Text = acc.executeScalar("sp_Tien_Kho").ToString();
-                    txtTien2.Text = acc.executeScalar("select convert(nvarchar(20),sum(a.Soluong*a.DonGia)) from PhieuNhap a").ToString();
-                    txtTien3.Text = acc.executeScalar("select convert(nvarchar(20),sum(a.Soluong*a.DonGia)) from PhieuXuat a").ToString();
+                    txtTien1.Text = ds1.Compute("Sum([Tổng giá])", "").ToString();
+                    txtTien2.Text = ds2.Compute("Sum([Tổng giá])", "").ToString();
+                    txtTien3.Text = ds3.Compute("Sum([Tổng giá])", "").ToString();
 
                 }
             }

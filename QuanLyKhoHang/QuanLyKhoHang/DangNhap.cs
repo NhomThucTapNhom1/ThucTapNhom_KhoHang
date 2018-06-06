@@ -40,7 +40,7 @@ namespace QuanLyKhoHang
                 string tk = tbxTenTaiKhoan.Text;
                 string mk = tbxMatKhau.Text;             
             
-               SqlDataReader dta = acc.ExecuteReader("Select *from DangNhap where TenDangNhap='" + tk + "'and MatKhau='" + mk + "'");
+               SqlDataReader dta = acc.ExecuteReader("Select * from DangNhap where TenDangNhap='" + tk + "'and MatKhau='" + mk + "'");
             if (tbxMatKhau.Text.Length > 8)
             {
                 if (dta.Read() == true)

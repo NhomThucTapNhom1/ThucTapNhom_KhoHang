@@ -135,6 +135,7 @@ E:\Học tập\Thực tập nhóm (quản lý kho và ngân hàng đề thi trr)
 E:\Học tập\Thực tập nhóm (quản lý kho và ngân hàng đề thi trr)\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.csproj.CoreCompileInputs.cache
 E:\Học tập\Thực tập nhóm (quản lý kho và ngân hàng đề thi trr)\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.exe
 E:\Học tập\Thực tập nhóm (quản lý kho và ngân hàng đề thi trr)\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.pdb
+<<<<<<< HEAD
 C:\Users\Truong_Loi\Documents\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\bin\Debug\QuanLyKhoHang.exe.config
 C:\Users\Truong_Loi\Documents\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.exe
 C:\Users\Truong_Loi\Documents\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.pdb
@@ -154,3 +155,8 @@ C:\Users\Truong_Loi\Documents\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKho
 C:\Users\Truong_Loi\Documents\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.TimKiem.resources
 C:\Users\Truong_Loi\Documents\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.TonKho.resources
 C:\Users\Truong_Loi\Documents\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.csproj.GenerateResource.Cache
+=======
+D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\bin\Debug\QuanLyKhoHang.exe.config
+D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.exe
+D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.pdb
+>>>>>>> 6c2a029b4fa3644b20f2fb66c7640c5289e35409
