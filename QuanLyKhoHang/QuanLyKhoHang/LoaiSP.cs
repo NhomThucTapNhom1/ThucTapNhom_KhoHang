@@ -46,7 +46,7 @@ namespace QuanLyKhoHang
 
 
 
-                string sql = "insert into LoaiSP Values(N'" + tbxMaLSP.Text + "','" + tbxTenLSP.Text + "')";
+                string sql = "insert into LoaiSP Values('" + tbxMaLSP.Text + "',N'" + tbxTenLSP.Text + "')";
 
                 acc.excuteNonQuery(sql);
 
@@ -64,15 +64,15 @@ namespace QuanLyKhoHang
         private void btnSua_Click(object sender, EventArgs e)
         {
             a = 1;
-            tbxMaLSP.Enabled = false;
-            tbxTenLSP.Enabled = false;
+            tbxMaLSP.Enabled = true;
+            tbxTenLSP.Enabled = true;
             
         }
         private void SuaLoaiSP(object sender, EventArgs e)
         {
             if (tbxMaLSP.Text != "")
             {
-                string sql = "UPDATE LoaiSP SET MaLSP ='" + tbxMaLSP.Text + "', TenLoai ='" + tbxTenLSP.Text + "' WHERE MaLSP='" + tbxMaLSP.Text + "'";
+                string sql = "UPDATE LoaiSP SET MaLSP ='" + tbxMaLSP.Text + "', TenLoai =N'" + tbxTenLSP.Text + "' WHERE MaLSP='" + tbxMaLSP.Text + "'";
 
                 acc.excuteNonQuery(sql);
                 MessageBox.Show("Cập Nhật Thành Công");
@@ -89,8 +89,15 @@ namespace QuanLyKhoHang
             string sql = "delete from LoaiSP where MaLSP='" + tbxMaLSP.Text + "'";
 
             acc.excuteNonQuery(sql);
-                tbxMaLSP.Clear();
-                tbxTenLSP.Clear();          
+
+
+
+            tbxMaLSP.Clear();
+
+            tbxTenLSP.Clear();
+
+           
+
             MessageBox.Show("Xoá thành công !");
 
             LoaiSP_Load(sender, e);
@@ -107,7 +114,7 @@ namespace QuanLyKhoHang
         private void dgvLoaiSP_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             tbxMaLSP.Text = dgvLoaiSP.CurrentRow.Cells["MaLSP"].Value.ToString();
-            tbxTenLSP.Text = dgvLoaiSP.CurrentRow.Cells["TenLSP"].Value.ToString();
+            tbxTenLSP.Text = dgvLoaiSP.CurrentRow.Cells["TenLoai"].Value.ToString();
         }
 
         private void btnLuu_Click(object sender, EventArgs e)

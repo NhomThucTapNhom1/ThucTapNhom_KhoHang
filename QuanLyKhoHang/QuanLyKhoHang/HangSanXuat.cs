@@ -29,7 +29,7 @@ namespace QuanLyKhoHang
         {
             try
             {
-                string sql = "insert into HangSX Values(N'" + tbxMaHSX.Text + "','" + tbxTenHSX.Text + "','" + tbxDiaChi.Text + "')";
+                string sql = "insert into HangSX Values('" + tbxMaHSX.Text + "',N'" + tbxTenHSX.Text + "',N'" + tbxDiaChi.Text + "')";
 
 
                 acc.excuteNonQuery(sql);
@@ -57,7 +57,7 @@ namespace QuanLyKhoHang
         {
             if (tbxMaHSX.Text != "")
             {
-                string sql = "UPDATE HangSX SET MaHSX ='" + tbxMaHSX.Text + "', TenHSX ='" + tbxTenHSX.Text + "',DiaChi ='" + tbxDiaChi.Text + "' WHERE MaHSX='" + tbxMaHSX.Text + "'";
+                string sql = "UPDATE HangSX SET MaHSX ='" + tbxMaHSX.Text + "', TenHSX =N'" + tbxTenHSX.Text + "',DiaChi =N'" + tbxDiaChi.Text + "' WHERE MaHSX='" + tbxMaHSX.Text + "'";
 
                 acc.excuteNonQuery(sql);
 
