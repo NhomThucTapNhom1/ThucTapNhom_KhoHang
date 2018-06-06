@@ -12,7 +12,13 @@ namespace QuanLyKhoHang
     {
         public SqlConnection getconnection()
         {
+<<<<<<< HEAD
             return new SqlConnection(@"Data Source=DESKTOP-H1LP27V;Initial Catalog=QuanLyKhoHang;Integrated Security=True");
+=======
+            return new SqlConnection(@"Data Source=DESKTOP-6KM2KGB\SQLEXPRESS;Initial Catalog=QuanLyKhoHang;Integrated Security=True");
+
+            //return new SqlConnection(@"Data Source=NGOCDATNGUYEN\SQLEXPRESS;Initial Catalog=QuanLyKhoHang;Integrated Security=True");
+>>>>>>> 082e31818e23695496724efd183daf1d141d8b55
         }
         public bool excuteNonQuery(String sql)
         {

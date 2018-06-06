@@ -159,4 +159,23 @@ C:\Users\Truong_Loi\Documents\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKho
 D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\bin\Debug\QuanLyKhoHang.exe.config
 D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.exe
 D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.pdb
+<<<<<<< HEAD
 >>>>>>> 6c2a029b4fa3644b20f2fb66c7640c5289e35409
+=======
+D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\bin\Debug\QuanLyKhoHang.exe
+D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\bin\Debug\QuanLyKhoHang.pdb
+D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.csprojResolveAssemblyReference.cache
+D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.CTPhieuBH.resources
+D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.CTPhieuNhap.resources
+D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.CTPhieuXuat.resources
+D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.DangNhap.resources
+D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.GiaoDien.resources
+D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.HangSanXuat.resources
+D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.LoaiSP.resources
+D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.NhanVien.resources
+D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.Properties.Resources.resources
+D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.SanPham.resources
+D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.TimKiem.resources
+D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.TonKho.resources
+D:\GitHub\ThucTapNhom_KhoHang\QuanLyKhoHang\QuanLyKhoHang\obj\Debug\QuanLyKhoHang.csproj.GenerateResource.Cache
+>>>>>>> 082e31818e23695496724efd183daf1d141d8b55
